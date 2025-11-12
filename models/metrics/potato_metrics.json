@@ -1,0 +1,16 @@
+{
+  "metrics": {
+    "mae": 9.053811116001832,
+    "rmse": 11.326340035518871,
+    "r2": 0.7527405159988307,
+    "within_10_pct": 60.0,
+    "n_train": 200,
+    "n_test": 50
+  },
+  "pipeline_meta": {
+    "plant": "potato",
+    "trained_on": 200,
+    "timestamp": "2025-11-08T16:58:27.370369+00:00",
+    "params": {}
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "metrics": {
+    "mae": 8.652182343402714,
+    "rmse": 11.360241151971001,
+    "r2": 0.8522601117418028,
+    "within_10_pct": 64.0,
+    "n_train": 200,
+    "n_test": 50
+  },
+  "pipeline_meta": {
+    "plant": "cotton",
+    "trained_on": 200,
+    "timestamp": "2025-11-08T16:58:25.862424+00:00",
+    "params": {}
+  }
+}

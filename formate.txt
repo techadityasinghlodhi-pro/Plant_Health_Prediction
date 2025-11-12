@@ -1,0 +1,1 @@
+python model.py --predict --plant Wheat --temp 28 --humidity 70 --soil 45 --rainfall 120 --dew 18

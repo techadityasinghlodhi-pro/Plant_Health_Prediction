@@ -1,0 +1,16 @@
+{
+  "metrics": {
+    "mae": 7.362625563718293,
+    "rmse": 8.830806832763919,
+    "r2": 0.9108637895280526,
+    "within_10_pct": 78.0,
+    "n_train": 200,
+    "n_test": 50
+  },
+  "pipeline_meta": {
+    "plant": "soybean",
+    "trained_on": 200,
+    "timestamp": "2025-11-08T16:58:28.266427+00:00",
+    "params": {}
+  }
+}

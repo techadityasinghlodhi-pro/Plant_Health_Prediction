@@ -1,0 +1,16 @@
+{
+  "metrics": {
+    "mae": 9.166548468321102,
+    "rmse": 11.808084570843553,
+    "r2": 0.8071832836495676,
+    "within_10_pct": 68.0,
+    "n_train": 200,
+    "n_test": 50
+  },
+  "pipeline_meta": {
+    "plant": "sugarcane",
+    "trained_on": 200,
+    "timestamp": "2025-11-08T16:58:28.725028+00:00",
+    "params": {}
+  }
+}

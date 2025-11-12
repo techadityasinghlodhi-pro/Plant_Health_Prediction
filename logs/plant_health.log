@@ -1,0 +1,683 @@
+2025-11-08 21:40:55,247 - INFO - '--train-all' flag set. Searching for all datasets...
+2025-11-08 21:40:55,249 - INFO - Found 8 CSV files in 'datasets'.
+2025-11-08 21:40:55,249 - INFO -   - Discovered: C:\Users\adity\OneDrive\Desktop\ML\datasets\Cotton.csv
+2025-11-08 21:40:55,249 - INFO -   - Discovered: C:\Users\adity\OneDrive\Desktop\ML\datasets\Maize.csv
+2025-11-08 21:40:55,250 - INFO -   - Discovered: C:\Users\adity\OneDrive\Desktop\ML\datasets\Potato.csv
+2025-11-08 21:40:55,250 - INFO -   - Discovered: C:\Users\adity\OneDrive\Desktop\ML\datasets\Rice.csv
+2025-11-08 21:40:55,250 - INFO -   - Discovered: C:\Users\adity\OneDrive\Desktop\ML\datasets\Soybean.csv
+2025-11-08 21:40:55,251 - INFO -   - Discovered: C:\Users\adity\OneDrive\Desktop\ML\datasets\Sugarcane.csv
+2025-11-08 21:40:55,251 - INFO -   - Discovered: C:\Users\adity\OneDrive\Desktop\ML\datasets\Tomato.csv
+2025-11-08 21:40:55,251 - INFO -   - Discovered: C:\Users\adity\OneDrive\Desktop\ML\datasets\Wheat.csv
+2025-11-08 21:40:55,251 - INFO - --- Loading Datasets ---
+2025-11-08 21:40:55,276 - WARNING - Skipping file datasets\Cotton.csv due to missing columns: {'Temperature', 'Soil_Moisture', 'Dew_Point', 'Rainfall', 'Humidity', 'Plant_Health_Percentage'}
+2025-11-08 21:40:55,282 - WARNING - Skipping file datasets\Maize.csv due to missing columns: {'Temperature', 'Soil_Moisture', 'Dew_Point', 'Rainfall', 'Humidity', 'Plant_Health_Percentage'}
+2025-11-08 21:40:55,290 - WARNING - Skipping file datasets\Potato.csv due to missing columns: {'Temperature', 'Soil_Moisture', 'Dew_Point', 'Rainfall', 'Humidity', 'Plant_Health_Percentage'}
+2025-11-08 21:40:55,297 - WARNING - Skipping file datasets\Rice.csv due to missing columns: {'Temperature', 'Soil_Moisture', 'Dew_Point', 'Rainfall', 'Humidity', 'Plant_Health_Percentage'}
+2025-11-08 21:40:55,303 - WARNING - Skipping file datasets\Soybean.csv due to missing columns: {'Temperature', 'Soil_Moisture', 'Dew_Point', 'Rainfall', 'Humidity', 'Plant_Health_Percentage'}
+2025-11-08 21:40:55,320 - WARNING - Skipping file datasets\Sugarcane.csv due to missing columns: {'Temperature', 'Soil_Moisture', 'Dew_Point', 'Rainfall', 'Humidity', 'Plant_Health_Percentage'}
+2025-11-08 21:40:55,332 - WARNING - Skipping file datasets\Tomato.csv due to missing columns: {'Temperature', 'Soil_Moisture', 'Dew_Point', 'Rainfall', 'Humidity', 'Plant_Health_Percentage'}
+2025-11-08 21:40:55,344 - WARNING - Skipping file datasets\Wheat.csv due to missing columns: {'Temperature', 'Soil_Moisture', 'Dew_Point', 'Rainfall', 'Humidity', 'Plant_Health_Percentage'}
+2025-11-08 21:40:55,347 - ERROR - No data loaded. Aborting training.
+2025-11-08 21:48:44,691 INFO: Discovered 8 CSV files.
+2025-11-08 21:48:44,720 INFO:   - Found: C:\Users\adity\OneDrive\Desktop\ML\datasets\Cotton.csv
+2025-11-08 21:48:44,727 INFO:   - Found: C:\Users\adity\OneDrive\Desktop\ML\datasets\Maize.csv
+2025-11-08 21:48:44,818 INFO:   - Found: C:\Users\adity\OneDrive\Desktop\ML\datasets\Potato.csv
+2025-11-08 21:48:45,088 INFO:   - Found: C:\Users\adity\OneDrive\Desktop\ML\datasets\Rice.csv
+2025-11-08 21:48:45,259 INFO:   - Found: C:\Users\adity\OneDrive\Desktop\ML\datasets\Soybean.csv
+2025-11-08 21:48:45,320 INFO:   - Found: C:\Users\adity\OneDrive\Desktop\ML\datasets\Sugarcane.csv
+2025-11-08 21:48:45,376 INFO:   - Found: C:\Users\adity\OneDrive\Desktop\ML\datasets\Tomato.csv
+2025-11-08 21:48:45,379 INFO:   - Found: C:\Users\adity\OneDrive\Desktop\ML\datasets\Wheat.csv
+2025-11-08 21:48:45,420 INFO: Processing file for training: C:\Users\adity\OneDrive\Desktop\ML\datasets\Cotton.csv
+2025-11-08 21:48:45,792 WARNING: Skipping datasets\Cotton.csv: missing required columns. Found ['Time', 'Plant_Type', 'Temperature_C', 'Humidity_%', 'Soil_Moisture_%', 'Rainfall_mm', 'Dew_Point_C', 'Health_Percentage'], require ['Temperature', 'Dew_Point', 'Rainfall', 'Humidity', 'Soil_Moisture', 'Health_Percentage']
+2025-11-08 21:48:45,983 INFO: Processing file for training: C:\Users\adity\OneDrive\Desktop\ML\datasets\Maize.csv
+2025-11-08 21:48:46,202 WARNING: Skipping datasets\Maize.csv: missing required columns. Found ['Time', 'Plant_Type', 'Temperature_C', 'Humidity_%', 'Soil_Moisture_%', 'Rainfall_mm', 'Dew_Point_C', 'Health_Percentage'], require ['Temperature', 'Dew_Point', 'Rainfall', 'Humidity', 'Soil_Moisture', 'Health_Percentage']
+2025-11-08 21:48:46,274 INFO: Processing file for training: C:\Users\adity\OneDrive\Desktop\ML\datasets\Potato.csv
+2025-11-08 21:48:46,496 WARNING: Skipping datasets\Potato.csv: missing required columns. Found ['Time', 'Plant_Type', 'Temperature_C', 'Humidity_%', 'Soil_Moisture_%', 'Rainfall_mm', 'Dew_Point_C', 'Health_Percentage'], require ['Temperature', 'Dew_Point', 'Rainfall', 'Humidity', 'Soil_Moisture', 'Health_Percentage']
+2025-11-08 21:48:46,591 INFO: Processing file for training: C:\Users\adity\OneDrive\Desktop\ML\datasets\Rice.csv
+2025-11-08 21:48:46,754 WARNING: Skipping datasets\Rice.csv: missing required columns. Found ['Time', 'Plant_Type', 'Temperature_C', 'Humidity_%', 'Soil_Moisture_%', 'Rainfall_mm', 'Dew_Point_C', 'Health_Percentage'], require ['Temperature', 'Dew_Point', 'Rainfall', 'Humidity', 'Soil_Moisture', 'Health_Percentage']
+2025-11-08 21:48:46,865 INFO: Processing file for training: C:\Users\adity\OneDrive\Desktop\ML\datasets\Soybean.csv
+2025-11-08 21:48:47,024 WARNING: Skipping datasets\Soybean.csv: missing required columns. Found ['Time', 'Plant_Type', 'Temperature_C', 'Humidity_%', 'Soil_Moisture_%', 'Rainfall_mm', 'Dew_Point_C', 'Health_Percentage'], require ['Temperature', 'Dew_Point', 'Rainfall', 'Humidity', 'Soil_Moisture', 'Health_Percentage']
+2025-11-08 21:48:47,095 INFO: Processing file for training: C:\Users\adity\OneDrive\Desktop\ML\datasets\Sugarcane.csv
+2025-11-08 21:48:47,209 WARNING: Skipping datasets\Sugarcane.csv: missing required columns. Found ['Time', 'Plant_Type', 'Temperature_C', 'Humidity_%', 'Soil_Moisture_%', 'Rainfall_mm', 'Dew_Point_C', 'Health_Percentage'], require ['Temperature', 'Dew_Point', 'Rainfall', 'Humidity', 'Soil_Moisture', 'Health_Percentage']
+2025-11-08 21:48:47,295 INFO: Processing file for training: C:\Users\adity\OneDrive\Desktop\ML\datasets\Tomato.csv
+2025-11-08 21:48:47,434 WARNING: Skipping datasets\Tomato.csv: missing required columns. Found ['Time', 'Plant_Type', 'Temperature_C', 'Humidity_%', 'Soil_Moisture_%', 'Rainfall_mm', 'Dew_Point_C', 'Health_Percentage'], require ['Temperature', 'Dew_Point', 'Rainfall', 'Humidity', 'Soil_Moisture', 'Health_Percentage']
+2025-11-08 21:48:47,485 INFO: Processing file for training: C:\Users\adity\OneDrive\Desktop\ML\datasets\Wheat.csv
+2025-11-08 21:48:47,562 WARNING: Skipping datasets\Wheat.csv: missing required columns. Found ['Time', 'Plant_Type', 'Temperature_C', 'Humidity_%', 'Soil_Moisture_%', 'Rainfall_mm', 'Dew_Point_C', 'Health_Percentage'], require ['Temperature', 'Dew_Point', 'Rainfall', 'Humidity', 'Soil_Moisture', 'Health_Percentage']
+2025-11-08 21:53:18,981 INFO: Discovered 8 CSV files.
+2025-11-08 21:53:18,981 INFO:   - Found: C:\Users\adity\OneDrive\Desktop\ML\datasets\Cotton.csv
+2025-11-08 21:53:18,984 INFO:   - Found: C:\Users\adity\OneDrive\Desktop\ML\datasets\Maize.csv
+2025-11-08 21:53:18,985 INFO:   - Found: C:\Users\adity\OneDrive\Desktop\ML\datasets\Potato.csv
+2025-11-08 21:53:18,986 INFO:   - Found: C:\Users\adity\OneDrive\Desktop\ML\datasets\Rice.csv
+2025-11-08 21:53:18,987 INFO:   - Found: C:\Users\adity\OneDrive\Desktop\ML\datasets\Soybean.csv
+2025-11-08 21:53:18,988 INFO:   - Found: C:\Users\adity\OneDrive\Desktop\ML\datasets\Sugarcane.csv
+2025-11-08 21:53:18,990 INFO:   - Found: C:\Users\adity\OneDrive\Desktop\ML\datasets\Tomato.csv
+2025-11-08 21:53:18,990 INFO:   - Found: C:\Users\adity\OneDrive\Desktop\ML\datasets\Wheat.csv
+2025-11-08 21:53:18,991 INFO: Processing file for training: C:\Users\adity\OneDrive\Desktop\ML\datasets\Cotton.csv
+2025-11-08 21:53:19,032 INFO: Normalized column names for a file: {'Temperature_C': 'Temperature', 'Humidity_%': 'Humidity', 'Soil_Moisture_%': 'Soil_Moisture', 'Rainfall_mm': 'Rainfall', 'Dew_Point_C': 'Dew_Point'}
+2025-11-08 21:53:19,039 INFO: Training for plant 'cotton' (250 rows)
+2025-11-08 21:53:19,048 ERROR: Failed to train model for datasets\Cotton.csv: Can only use .dt accessor with datetimelike values
+Traceback (most recent call last):
+  File "C:\Users\adity\OneDrive\Desktop\ML\model.py", line 455, in train_all
+    res = train_model_for_plant(df, plant=plant_name, out_dir=out_dir, use_lightgbm=USE_LIGHTGBM, tune=tune, test_size=TEST_SIZE)
+  File "C:\Users\adity\OneDrive\Desktop\ML\model.py", line 297, in train_model_for_plant
+    df = add_time_features(df)
+  File "C:\Users\adity\OneDrive\Desktop\ML\model.py", line 190, in add_time_features
+    df["hour"] = df[TIME_COL].dt.hour.fillna(12).astype(int)
+                 ^^^^^^^^^^^^^^^
+  File "D:\Anaconda\Lib\site-packages\pandas\core\generic.py", line 6299, in __getattr__
+    return object.__getattribute__(self, name)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "D:\Anaconda\Lib\site-packages\pandas\core\accessor.py", line 224, in __get__
+    accessor_obj = self._accessor(obj)
+  File "D:\Anaconda\Lib\site-packages\pandas\core\indexes\accessors.py", line 643, in __new__
+    raise AttributeError("Can only use .dt accessor with datetimelike values")
+AttributeError: Can only use .dt accessor with datetimelike values. Did you mean: 'at'?
+2025-11-08 21:53:19,278 INFO: Processing file for training: C:\Users\adity\OneDrive\Desktop\ML\datasets\Maize.csv
+2025-11-08 21:53:19,291 INFO: Normalized column names for a file: {'Temperature_C': 'Temperature', 'Humidity_%': 'Humidity', 'Soil_Moisture_%': 'Soil_Moisture', 'Rainfall_mm': 'Rainfall', 'Dew_Point_C': 'Dew_Point'}
+2025-11-08 21:53:19,292 INFO: Training for plant 'maize' (250 rows)
+2025-11-08 21:53:19,298 ERROR: Failed to train model for datasets\Maize.csv: Can only use .dt accessor with datetimelike values
+Traceback (most recent call last):
+  File "C:\Users\adity\OneDrive\Desktop\ML\model.py", line 455, in train_all
+    res = train_model_for_plant(df, plant=plant_name, out_dir=out_dir, use_lightgbm=USE_LIGHTGBM, tune=tune, test_size=TEST_SIZE)
+  File "C:\Users\adity\OneDrive\Desktop\ML\model.py", line 297, in train_model_for_plant
+    df = add_time_features(df)
+  File "C:\Users\adity\OneDrive\Desktop\ML\model.py", line 190, in add_time_features
+    df["hour"] = df[TIME_COL].dt.hour.fillna(12).astype(int)
+                 ^^^^^^^^^^^^^^^
+  File "D:\Anaconda\Lib\site-packages\pandas\core\generic.py", line 6299, in __getattr__
+    return object.__getattribute__(self, name)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "D:\Anaconda\Lib\site-packages\pandas\core\accessor.py", line 224, in __get__
+    accessor_obj = self._accessor(obj)
+  File "D:\Anaconda\Lib\site-packages\pandas\core\indexes\accessors.py", line 643, in __new__
+    raise AttributeError("Can only use .dt accessor with datetimelike values")
+AttributeError: Can only use .dt accessor with datetimelike values. Did you mean: 'at'?
+2025-11-08 21:53:19,320 INFO: Processing file for training: C:\Users\adity\OneDrive\Desktop\ML\datasets\Potato.csv
+2025-11-08 21:53:19,334 INFO: Normalized column names for a file: {'Temperature_C': 'Temperature', 'Humidity_%': 'Humidity', 'Soil_Moisture_%': 'Soil_Moisture', 'Rainfall_mm': 'Rainfall', 'Dew_Point_C': 'Dew_Point'}
+2025-11-08 21:53:19,339 INFO: Training for plant 'potato' (250 rows)
+2025-11-08 21:53:19,340 ERROR: Failed to train model for datasets\Potato.csv: Can only use .dt accessor with datetimelike values
+Traceback (most recent call last):
+  File "C:\Users\adity\OneDrive\Desktop\ML\model.py", line 455, in train_all
+    res = train_model_for_plant(df, plant=plant_name, out_dir=out_dir, use_lightgbm=USE_LIGHTGBM, tune=tune, test_size=TEST_SIZE)
+  File "C:\Users\adity\OneDrive\Desktop\ML\model.py", line 297, in train_model_for_plant
+    df = add_time_features(df)
+  File "C:\Users\adity\OneDrive\Desktop\ML\model.py", line 190, in add_time_features
+    df["hour"] = df[TIME_COL].dt.hour.fillna(12).astype(int)
+                 ^^^^^^^^^^^^^^^
+  File "D:\Anaconda\Lib\site-packages\pandas\core\generic.py", line 6299, in __getattr__
+    return object.__getattribute__(self, name)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "D:\Anaconda\Lib\site-packages\pandas\core\accessor.py", line 224, in __get__
+    accessor_obj = self._accessor(obj)
+  File "D:\Anaconda\Lib\site-packages\pandas\core\indexes\accessors.py", line 643, in __new__
+    raise AttributeError("Can only use .dt accessor with datetimelike values")
+AttributeError: Can only use .dt accessor with datetimelike values. Did you mean: 'at'?
+2025-11-08 21:53:19,358 INFO: Processing file for training: C:\Users\adity\OneDrive\Desktop\ML\datasets\Rice.csv
+2025-11-08 21:53:19,371 INFO: Normalized column names for a file: {'Temperature_C': 'Temperature', 'Humidity_%': 'Humidity', 'Soil_Moisture_%': 'Soil_Moisture', 'Rainfall_mm': 'Rainfall', 'Dew_Point_C': 'Dew_Point'}
+2025-11-08 21:53:19,372 INFO: Training for plant 'rice' (250 rows)
+2025-11-08 21:53:19,376 ERROR: Failed to train model for datasets\Rice.csv: Can only use .dt accessor with datetimelike values
+Traceback (most recent call last):
+  File "C:\Users\adity\OneDrive\Desktop\ML\model.py", line 455, in train_all
+    res = train_model_for_plant(df, plant=plant_name, out_dir=out_dir, use_lightgbm=USE_LIGHTGBM, tune=tune, test_size=TEST_SIZE)
+  File "C:\Users\adity\OneDrive\Desktop\ML\model.py", line 297, in train_model_for_plant
+    df = add_time_features(df)
+  File "C:\Users\adity\OneDrive\Desktop\ML\model.py", line 190, in add_time_features
+    df["hour"] = df[TIME_COL].dt.hour.fillna(12).astype(int)
+                 ^^^^^^^^^^^^^^^
+  File "D:\Anaconda\Lib\site-packages\pandas\core\generic.py", line 6299, in __getattr__
+    return object.__getattribute__(self, name)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "D:\Anaconda\Lib\site-packages\pandas\core\accessor.py", line 224, in __get__
+    accessor_obj = self._accessor(obj)
+  File "D:\Anaconda\Lib\site-packages\pandas\core\indexes\accessors.py", line 643, in __new__
+    raise AttributeError("Can only use .dt accessor with datetimelike values")
+AttributeError: Can only use .dt accessor with datetimelike values. Did you mean: 'at'?
+2025-11-08 21:53:19,406 INFO: Processing file for training: C:\Users\adity\OneDrive\Desktop\ML\datasets\Soybean.csv
+2025-11-08 21:53:19,418 INFO: Normalized column names for a file: {'Temperature_C': 'Temperature', 'Humidity_%': 'Humidity', 'Soil_Moisture_%': 'Soil_Moisture', 'Rainfall_mm': 'Rainfall', 'Dew_Point_C': 'Dew_Point'}
+2025-11-08 21:53:19,422 INFO: Training for plant 'soybean' (250 rows)
+2025-11-08 21:53:19,426 ERROR: Failed to train model for datasets\Soybean.csv: Can only use .dt accessor with datetimelike values
+Traceback (most recent call last):
+  File "C:\Users\adity\OneDrive\Desktop\ML\model.py", line 455, in train_all
+    res = train_model_for_plant(df, plant=plant_name, out_dir=out_dir, use_lightgbm=USE_LIGHTGBM, tune=tune, test_size=TEST_SIZE)
+  File "C:\Users\adity\OneDrive\Desktop\ML\model.py", line 297, in train_model_for_plant
+    df = add_time_features(df)
+  File "C:\Users\adity\OneDrive\Desktop\ML\model.py", line 190, in add_time_features
+    df["hour"] = df[TIME_COL].dt.hour.fillna(12).astype(int)
+                 ^^^^^^^^^^^^^^^
+  File "D:\Anaconda\Lib\site-packages\pandas\core\generic.py", line 6299, in __getattr__
+    return object.__getattribute__(self, name)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "D:\Anaconda\Lib\site-packages\pandas\core\accessor.py", line 224, in __get__
+    accessor_obj = self._accessor(obj)
+  File "D:\Anaconda\Lib\site-packages\pandas\core\indexes\accessors.py", line 643, in __new__
+    raise AttributeError("Can only use .dt accessor with datetimelike values")
+AttributeError: Can only use .dt accessor with datetimelike values. Did you mean: 'at'?
+2025-11-08 21:53:19,459 INFO: Processing file for training: C:\Users\adity\OneDrive\Desktop\ML\datasets\Sugarcane.csv
+2025-11-08 21:53:19,476 INFO: Normalized column names for a file: {'Temperature_C': 'Temperature', 'Humidity_%': 'Humidity', 'Soil_Moisture_%': 'Soil_Moisture', 'Rainfall_mm': 'Rainfall', 'Dew_Point_C': 'Dew_Point'}
+2025-11-08 21:53:19,489 INFO: Training for plant 'sugarcane' (250 rows)
+2025-11-08 21:53:19,498 ERROR: Failed to train model for datasets\Sugarcane.csv: Can only use .dt accessor with datetimelike values
+Traceback (most recent call last):
+  File "C:\Users\adity\OneDrive\Desktop\ML\model.py", line 455, in train_all
+    res = train_model_for_plant(df, plant=plant_name, out_dir=out_dir, use_lightgbm=USE_LIGHTGBM, tune=tune, test_size=TEST_SIZE)
+  File "C:\Users\adity\OneDrive\Desktop\ML\model.py", line 297, in train_model_for_plant
+    df = add_time_features(df)
+  File "C:\Users\adity\OneDrive\Desktop\ML\model.py", line 190, in add_time_features
+    df["hour"] = df[TIME_COL].dt.hour.fillna(12).astype(int)
+                 ^^^^^^^^^^^^^^^
+  File "D:\Anaconda\Lib\site-packages\pandas\core\generic.py", line 6299, in __getattr__
+    return object.__getattribute__(self, name)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "D:\Anaconda\Lib\site-packages\pandas\core\accessor.py", line 224, in __get__
+    accessor_obj = self._accessor(obj)
+  File "D:\Anaconda\Lib\site-packages\pandas\core\indexes\accessors.py", line 643, in __new__
+    raise AttributeError("Can only use .dt accessor with datetimelike values")
+AttributeError: Can only use .dt accessor with datetimelike values. Did you mean: 'at'?
+2025-11-08 21:53:19,522 INFO: Processing file for training: C:\Users\adity\OneDrive\Desktop\ML\datasets\Tomato.csv
+2025-11-08 21:53:19,539 INFO: Normalized column names for a file: {'Temperature_C': 'Temperature', 'Humidity_%': 'Humidity', 'Soil_Moisture_%': 'Soil_Moisture', 'Rainfall_mm': 'Rainfall', 'Dew_Point_C': 'Dew_Point'}
+2025-11-08 21:53:19,542 INFO: Training for plant 'tomato' (250 rows)
+2025-11-08 21:53:19,557 ERROR: Failed to train model for datasets\Tomato.csv: Can only use .dt accessor with datetimelike values
+Traceback (most recent call last):
+  File "C:\Users\adity\OneDrive\Desktop\ML\model.py", line 455, in train_all
+    res = train_model_for_plant(df, plant=plant_name, out_dir=out_dir, use_lightgbm=USE_LIGHTGBM, tune=tune, test_size=TEST_SIZE)
+  File "C:\Users\adity\OneDrive\Desktop\ML\model.py", line 297, in train_model_for_plant
+    df = add_time_features(df)
+  File "C:\Users\adity\OneDrive\Desktop\ML\model.py", line 190, in add_time_features
+    df["hour"] = df[TIME_COL].dt.hour.fillna(12).astype(int)
+                 ^^^^^^^^^^^^^^^
+  File "D:\Anaconda\Lib\site-packages\pandas\core\generic.py", line 6299, in __getattr__
+    return object.__getattribute__(self, name)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "D:\Anaconda\Lib\site-packages\pandas\core\accessor.py", line 224, in __get__
+    accessor_obj = self._accessor(obj)
+  File "D:\Anaconda\Lib\site-packages\pandas\core\indexes\accessors.py", line 643, in __new__
+    raise AttributeError("Can only use .dt accessor with datetimelike values")
+AttributeError: Can only use .dt accessor with datetimelike values. Did you mean: 'at'?
+2025-11-08 21:53:19,571 INFO: Processing file for training: C:\Users\adity\OneDrive\Desktop\ML\datasets\Wheat.csv
+2025-11-08 21:53:19,580 INFO: Normalized column names for a file: {'Temperature_C': 'Temperature', 'Humidity_%': 'Humidity', 'Soil_Moisture_%': 'Soil_Moisture', 'Rainfall_mm': 'Rainfall', 'Dew_Point_C': 'Dew_Point'}
+2025-11-08 21:53:19,582 INFO: Training for plant 'wheat' (250 rows)
+2025-11-08 21:53:19,584 ERROR: Failed to train model for datasets\Wheat.csv: Can only use .dt accessor with datetimelike values
+Traceback (most recent call last):
+  File "C:\Users\adity\OneDrive\Desktop\ML\model.py", line 455, in train_all
+    res = train_model_for_plant(df, plant=plant_name, out_dir=out_dir, use_lightgbm=USE_LIGHTGBM, tune=tune, test_size=TEST_SIZE)
+  File "C:\Users\adity\OneDrive\Desktop\ML\model.py", line 297, in train_model_for_plant
+    df = add_time_features(df)
+  File "C:\Users\adity\OneDrive\Desktop\ML\model.py", line 190, in add_time_features
+    df["hour"] = df[TIME_COL].dt.hour.fillna(12).astype(int)
+                 ^^^^^^^^^^^^^^^
+  File "D:\Anaconda\Lib\site-packages\pandas\core\generic.py", line 6299, in __getattr__
+    return object.__getattribute__(self, name)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "D:\Anaconda\Lib\site-packages\pandas\core\accessor.py", line 224, in __get__
+    accessor_obj = self._accessor(obj)
+  File "D:\Anaconda\Lib\site-packages\pandas\core\indexes\accessors.py", line 643, in __new__
+    raise AttributeError("Can only use .dt accessor with datetimelike values")
+AttributeError: Can only use .dt accessor with datetimelike values. Did you mean: 'at'?
+2025-11-08 21:54:31,965 INFO: Discovered 8 CSV files.
+2025-11-08 21:54:31,966 INFO:   - Found: C:\Users\adity\OneDrive\Desktop\ML\datasets\Cotton.csv
+2025-11-08 21:54:31,967 INFO:   - Found: C:\Users\adity\OneDrive\Desktop\ML\datasets\Maize.csv
+2025-11-08 21:54:31,968 INFO:   - Found: C:\Users\adity\OneDrive\Desktop\ML\datasets\Potato.csv
+2025-11-08 21:54:31,969 INFO:   - Found: C:\Users\adity\OneDrive\Desktop\ML\datasets\Rice.csv
+2025-11-08 21:54:31,970 INFO:   - Found: C:\Users\adity\OneDrive\Desktop\ML\datasets\Soybean.csv
+2025-11-08 21:54:31,973 INFO:   - Found: C:\Users\adity\OneDrive\Desktop\ML\datasets\Sugarcane.csv
+2025-11-08 21:54:31,975 INFO:   - Found: C:\Users\adity\OneDrive\Desktop\ML\datasets\Tomato.csv
+2025-11-08 21:54:31,977 INFO:   - Found: C:\Users\adity\OneDrive\Desktop\ML\datasets\Wheat.csv
+2025-11-08 21:54:31,981 INFO: Processing file for training: C:\Users\adity\OneDrive\Desktop\ML\datasets\Cotton.csv
+2025-11-08 21:54:32,002 INFO: Normalized column names for a file: {'Temperature_C': 'Temperature', 'Humidity_%': 'Humidity', 'Soil_Moisture_%': 'Soil_Moisture', 'Rainfall_mm': 'Rainfall', 'Dew_Point_C': 'Dew_Point'}
+2025-11-08 21:54:32,086 INFO: Training for plant 'cotton' (250 rows)
+2025-11-08 21:54:32,834 ERROR: Failed to train model for datasets\Cotton.csv: got an unexpected keyword argument 'squared'
+Traceback (most recent call last):
+  File "C:\Users\adity\OneDrive\Desktop\ML\model.py", line 459, in train_all
+    res = train_model_for_plant(df, plant=plant_name, out_dir=out_dir, use_lightgbm=USE_LIGHTGBM, tune=tune, test_size=TEST_SIZE)
+  File "C:\Users\adity\OneDrive\Desktop\ML\model.py", line 372, in train_model_for_plant
+    rmse = mean_squared_error(y_test, preds, squared=False)
+  File "D:\Anaconda\Lib\site-packages\sklearn\utils\_param_validation.py", line 194, in wrapper
+    params = func_sig.bind(*args, **kwargs)
+  File "D:\Anaconda\Lib\inspect.py", line 3295, in bind
+    return self._bind(args, kwargs)
+           ~~~~~~~~~~^^^^^^^^^^^^^^
+  File "D:\Anaconda\Lib\inspect.py", line 3284, in _bind
+    raise TypeError(
+        'got an unexpected keyword argument {arg!r}'.format(
+            arg=next(iter(kwargs))))
+TypeError: got an unexpected keyword argument 'squared'
+2025-11-08 21:54:32,950 INFO: Processing file for training: C:\Users\adity\OneDrive\Desktop\ML\datasets\Maize.csv
+2025-11-08 21:54:32,962 INFO: Normalized column names for a file: {'Temperature_C': 'Temperature', 'Humidity_%': 'Humidity', 'Soil_Moisture_%': 'Soil_Moisture', 'Rainfall_mm': 'Rainfall', 'Dew_Point_C': 'Dew_Point'}
+2025-11-08 21:54:32,970 INFO: Training for plant 'maize' (250 rows)
+2025-11-08 21:54:33,506 ERROR: Failed to train model for datasets\Maize.csv: got an unexpected keyword argument 'squared'
+Traceback (most recent call last):
+  File "C:\Users\adity\OneDrive\Desktop\ML\model.py", line 459, in train_all
+    res = train_model_for_plant(df, plant=plant_name, out_dir=out_dir, use_lightgbm=USE_LIGHTGBM, tune=tune, test_size=TEST_SIZE)
+  File "C:\Users\adity\OneDrive\Desktop\ML\model.py", line 372, in train_model_for_plant
+    rmse = mean_squared_error(y_test, preds, squared=False)
+  File "D:\Anaconda\Lib\site-packages\sklearn\utils\_param_validation.py", line 194, in wrapper
+    params = func_sig.bind(*args, **kwargs)
+  File "D:\Anaconda\Lib\inspect.py", line 3295, in bind
+    return self._bind(args, kwargs)
+           ~~~~~~~~~~^^^^^^^^^^^^^^
+  File "D:\Anaconda\Lib\inspect.py", line 3284, in _bind
+    raise TypeError(
+        'got an unexpected keyword argument {arg!r}'.format(
+            arg=next(iter(kwargs))))
+TypeError: got an unexpected keyword argument 'squared'
+2025-11-08 21:54:33,525 INFO: Processing file for training: C:\Users\adity\OneDrive\Desktop\ML\datasets\Potato.csv
+2025-11-08 21:54:33,540 INFO: Normalized column names for a file: {'Temperature_C': 'Temperature', 'Humidity_%': 'Humidity', 'Soil_Moisture_%': 'Soil_Moisture', 'Rainfall_mm': 'Rainfall', 'Dew_Point_C': 'Dew_Point'}
+2025-11-08 21:54:33,550 INFO: Training for plant 'potato' (250 rows)
+2025-11-08 21:54:34,091 ERROR: Failed to train model for datasets\Potato.csv: got an unexpected keyword argument 'squared'
+Traceback (most recent call last):
+  File "C:\Users\adity\OneDrive\Desktop\ML\model.py", line 459, in train_all
+    res = train_model_for_plant(df, plant=plant_name, out_dir=out_dir, use_lightgbm=USE_LIGHTGBM, tune=tune, test_size=TEST_SIZE)
+  File "C:\Users\adity\OneDrive\Desktop\ML\model.py", line 372, in train_model_for_plant
+    rmse = mean_squared_error(y_test, preds, squared=False)
+  File "D:\Anaconda\Lib\site-packages\sklearn\utils\_param_validation.py", line 194, in wrapper
+    params = func_sig.bind(*args, **kwargs)
+  File "D:\Anaconda\Lib\inspect.py", line 3295, in bind
+    return self._bind(args, kwargs)
+           ~~~~~~~~~~^^^^^^^^^^^^^^
+  File "D:\Anaconda\Lib\inspect.py", line 3284, in _bind
+    raise TypeError(
+        'got an unexpected keyword argument {arg!r}'.format(
+            arg=next(iter(kwargs))))
+TypeError: got an unexpected keyword argument 'squared'
+2025-11-08 21:54:34,111 INFO: Processing file for training: C:\Users\adity\OneDrive\Desktop\ML\datasets\Rice.csv
+2025-11-08 21:54:34,127 INFO: Normalized column names for a file: {'Temperature_C': 'Temperature', 'Humidity_%': 'Humidity', 'Soil_Moisture_%': 'Soil_Moisture', 'Rainfall_mm': 'Rainfall', 'Dew_Point_C': 'Dew_Point'}
+2025-11-08 21:54:34,139 INFO: Training for plant 'rice' (250 rows)
+2025-11-08 21:54:34,797 ERROR: Failed to train model for datasets\Rice.csv: got an unexpected keyword argument 'squared'
+Traceback (most recent call last):
+  File "C:\Users\adity\OneDrive\Desktop\ML\model.py", line 459, in train_all
+    res = train_model_for_plant(df, plant=plant_name, out_dir=out_dir, use_lightgbm=USE_LIGHTGBM, tune=tune, test_size=TEST_SIZE)
+  File "C:\Users\adity\OneDrive\Desktop\ML\model.py", line 372, in train_model_for_plant
+    rmse = mean_squared_error(y_test, preds, squared=False)
+  File "D:\Anaconda\Lib\site-packages\sklearn\utils\_param_validation.py", line 194, in wrapper
+    params = func_sig.bind(*args, **kwargs)
+  File "D:\Anaconda\Lib\inspect.py", line 3295, in bind
+    return self._bind(args, kwargs)
+           ~~~~~~~~~~^^^^^^^^^^^^^^
+  File "D:\Anaconda\Lib\inspect.py", line 3284, in _bind
+    raise TypeError(
+        'got an unexpected keyword argument {arg!r}'.format(
+            arg=next(iter(kwargs))))
+TypeError: got an unexpected keyword argument 'squared'
+2025-11-08 21:54:34,808 INFO: Processing file for training: C:\Users\adity\OneDrive\Desktop\ML\datasets\Soybean.csv
+2025-11-08 21:54:34,818 INFO: Normalized column names for a file: {'Temperature_C': 'Temperature', 'Humidity_%': 'Humidity', 'Soil_Moisture_%': 'Soil_Moisture', 'Rainfall_mm': 'Rainfall', 'Dew_Point_C': 'Dew_Point'}
+2025-11-08 21:54:34,828 INFO: Training for plant 'soybean' (250 rows)
+2025-11-08 21:54:35,712 ERROR: Failed to train model for datasets\Soybean.csv: got an unexpected keyword argument 'squared'
+Traceback (most recent call last):
+  File "C:\Users\adity\OneDrive\Desktop\ML\model.py", line 459, in train_all
+    res = train_model_for_plant(df, plant=plant_name, out_dir=out_dir, use_lightgbm=USE_LIGHTGBM, tune=tune, test_size=TEST_SIZE)
+  File "C:\Users\adity\OneDrive\Desktop\ML\model.py", line 372, in train_model_for_plant
+    rmse = mean_squared_error(y_test, preds, squared=False)
+  File "D:\Anaconda\Lib\site-packages\sklearn\utils\_param_validation.py", line 194, in wrapper
+    params = func_sig.bind(*args, **kwargs)
+  File "D:\Anaconda\Lib\inspect.py", line 3295, in bind
+    return self._bind(args, kwargs)
+           ~~~~~~~~~~^^^^^^^^^^^^^^
+  File "D:\Anaconda\Lib\inspect.py", line 3284, in _bind
+    raise TypeError(
+        'got an unexpected keyword argument {arg!r}'.format(
+            arg=next(iter(kwargs))))
+TypeError: got an unexpected keyword argument 'squared'
+2025-11-08 21:54:35,778 INFO: Processing file for training: C:\Users\adity\OneDrive\Desktop\ML\datasets\Sugarcane.csv
+2025-11-08 21:54:35,802 INFO: Normalized column names for a file: {'Temperature_C': 'Temperature', 'Humidity_%': 'Humidity', 'Soil_Moisture_%': 'Soil_Moisture', 'Rainfall_mm': 'Rainfall', 'Dew_Point_C': 'Dew_Point'}
+2025-11-08 21:54:35,824 INFO: Training for plant 'sugarcane' (250 rows)
+2025-11-08 21:54:36,713 ERROR: Failed to train model for datasets\Sugarcane.csv: got an unexpected keyword argument 'squared'
+Traceback (most recent call last):
+  File "C:\Users\adity\OneDrive\Desktop\ML\model.py", line 459, in train_all
+    res = train_model_for_plant(df, plant=plant_name, out_dir=out_dir, use_lightgbm=USE_LIGHTGBM, tune=tune, test_size=TEST_SIZE)
+  File "C:\Users\adity\OneDrive\Desktop\ML\model.py", line 372, in train_model_for_plant
+    rmse = mean_squared_error(y_test, preds, squared=False)
+  File "D:\Anaconda\Lib\site-packages\sklearn\utils\_param_validation.py", line 194, in wrapper
+    params = func_sig.bind(*args, **kwargs)
+  File "D:\Anaconda\Lib\inspect.py", line 3295, in bind
+    return self._bind(args, kwargs)
+           ~~~~~~~~~~^^^^^^^^^^^^^^
+  File "D:\Anaconda\Lib\inspect.py", line 3284, in _bind
+    raise TypeError(
+        'got an unexpected keyword argument {arg!r}'.format(
+            arg=next(iter(kwargs))))
+TypeError: got an unexpected keyword argument 'squared'
+2025-11-08 21:54:36,761 INFO: Processing file for training: C:\Users\adity\OneDrive\Desktop\ML\datasets\Tomato.csv
+2025-11-08 21:54:36,783 INFO: Normalized column names for a file: {'Temperature_C': 'Temperature', 'Humidity_%': 'Humidity', 'Soil_Moisture_%': 'Soil_Moisture', 'Rainfall_mm': 'Rainfall', 'Dew_Point_C': 'Dew_Point'}
+2025-11-08 21:54:36,804 INFO: Training for plant 'tomato' (250 rows)
+2025-11-08 21:54:37,621 ERROR: Failed to train model for datasets\Tomato.csv: got an unexpected keyword argument 'squared'
+Traceback (most recent call last):
+  File "C:\Users\adity\OneDrive\Desktop\ML\model.py", line 459, in train_all
+    res = train_model_for_plant(df, plant=plant_name, out_dir=out_dir, use_lightgbm=USE_LIGHTGBM, tune=tune, test_size=TEST_SIZE)
+  File "C:\Users\adity\OneDrive\Desktop\ML\model.py", line 372, in train_model_for_plant
+    rmse = mean_squared_error(y_test, preds, squared=False)
+  File "D:\Anaconda\Lib\site-packages\sklearn\utils\_param_validation.py", line 194, in wrapper
+    params = func_sig.bind(*args, **kwargs)
+  File "D:\Anaconda\Lib\inspect.py", line 3295, in bind
+    return self._bind(args, kwargs)
+           ~~~~~~~~~~^^^^^^^^^^^^^^
+  File "D:\Anaconda\Lib\inspect.py", line 3284, in _bind
+    raise TypeError(
+        'got an unexpected keyword argument {arg!r}'.format(
+            arg=next(iter(kwargs))))
+TypeError: got an unexpected keyword argument 'squared'
+2025-11-08 21:54:37,642 INFO: Processing file for training: C:\Users\adity\OneDrive\Desktop\ML\datasets\Wheat.csv
+2025-11-08 21:54:37,654 INFO: Normalized column names for a file: {'Temperature_C': 'Temperature', 'Humidity_%': 'Humidity', 'Soil_Moisture_%': 'Soil_Moisture', 'Rainfall_mm': 'Rainfall', 'Dew_Point_C': 'Dew_Point'}
+2025-11-08 21:54:37,666 INFO: Training for plant 'wheat' (250 rows)
+2025-11-08 21:54:38,572 ERROR: Failed to train model for datasets\Wheat.csv: got an unexpected keyword argument 'squared'
+Traceback (most recent call last):
+  File "C:\Users\adity\OneDrive\Desktop\ML\model.py", line 459, in train_all
+    res = train_model_for_plant(df, plant=plant_name, out_dir=out_dir, use_lightgbm=USE_LIGHTGBM, tune=tune, test_size=TEST_SIZE)
+  File "C:\Users\adity\OneDrive\Desktop\ML\model.py", line 372, in train_model_for_plant
+    rmse = mean_squared_error(y_test, preds, squared=False)
+  File "D:\Anaconda\Lib\site-packages\sklearn\utils\_param_validation.py", line 194, in wrapper
+    params = func_sig.bind(*args, **kwargs)
+  File "D:\Anaconda\Lib\inspect.py", line 3295, in bind
+    return self._bind(args, kwargs)
+           ~~~~~~~~~~^^^^^^^^^^^^^^
+  File "D:\Anaconda\Lib\inspect.py", line 3284, in _bind
+    raise TypeError(
+        'got an unexpected keyword argument {arg!r}'.format(
+            arg=next(iter(kwargs))))
+TypeError: got an unexpected keyword argument 'squared'
+2025-11-08 21:54:38,760 INFO: Discovered 8 CSV files.
+2025-11-08 21:54:38,760 INFO:   - Found: c:\Users\adity\OneDrive\Desktop\ML\datasets\Cotton.csv
+2025-11-08 21:54:38,761 INFO:   - Found: c:\Users\adity\OneDrive\Desktop\ML\datasets\Maize.csv
+2025-11-08 21:54:38,761 INFO:   - Found: c:\Users\adity\OneDrive\Desktop\ML\datasets\Potato.csv
+2025-11-08 21:54:38,761 INFO:   - Found: c:\Users\adity\OneDrive\Desktop\ML\datasets\Rice.csv
+2025-11-08 21:54:38,762 INFO:   - Found: c:\Users\adity\OneDrive\Desktop\ML\datasets\Soybean.csv
+2025-11-08 21:54:38,762 INFO:   - Found: c:\Users\adity\OneDrive\Desktop\ML\datasets\Sugarcane.csv
+2025-11-08 21:54:38,762 INFO:   - Found: c:\Users\adity\OneDrive\Desktop\ML\datasets\Tomato.csv
+2025-11-08 21:54:38,762 INFO:   - Found: c:\Users\adity\OneDrive\Desktop\ML\datasets\Wheat.csv
+2025-11-08 21:54:38,763 INFO: Processing file for training: c:\Users\adity\OneDrive\Desktop\ML\datasets\Cotton.csv
+2025-11-08 21:54:38,776 INFO: Normalized column names for a file: {'Temperature_C': 'Temperature', 'Humidity_%': 'Humidity', 'Soil_Moisture_%': 'Soil_Moisture', 'Rainfall_mm': 'Rainfall', 'Dew_Point_C': 'Dew_Point'}
+2025-11-08 21:54:38,788 INFO: Training for plant 'cotton' (250 rows)
+2025-11-08 21:54:38,987 ERROR: Failed to train model for datasets\Cotton.csv: got an unexpected keyword argument 'squared'
+Traceback (most recent call last):
+  File "c:\Users\adity\OneDrive\Desktop\ML\model.py", line 459, in train_all
+    res = train_model_for_plant(df, plant=plant_name, out_dir=out_dir, use_lightgbm=USE_LIGHTGBM, tune=tune, test_size=TEST_SIZE)
+  File "c:\Users\adity\OneDrive\Desktop\ML\model.py", line 372, in train_model_for_plant
+    rmse = mean_squared_error(y_test, preds, squared=False)
+  File "D:\Anaconda\Lib\site-packages\sklearn\utils\_param_validation.py", line 194, in wrapper
+    params = func_sig.bind(*args, **kwargs)
+  File "D:\Anaconda\Lib\inspect.py", line 3295, in bind
+    return self._bind(args, kwargs)
+           ~~~~~~~~~~^^^^^^^^^^^^^^
+  File "D:\Anaconda\Lib\inspect.py", line 3284, in _bind
+    raise TypeError(
+        'got an unexpected keyword argument {arg!r}'.format(
+            arg=next(iter(kwargs))))
+TypeError: got an unexpected keyword argument 'squared'
+2025-11-08 21:54:38,997 INFO: Processing file for training: c:\Users\adity\OneDrive\Desktop\ML\datasets\Maize.csv
+2025-11-08 21:54:39,004 INFO: Normalized column names for a file: {'Temperature_C': 'Temperature', 'Humidity_%': 'Humidity', 'Soil_Moisture_%': 'Soil_Moisture', 'Rainfall_mm': 'Rainfall', 'Dew_Point_C': 'Dew_Point'}
+2025-11-08 21:54:39,009 INFO: Training for plant 'maize' (250 rows)
+2025-11-08 21:54:39,179 ERROR: Failed to train model for datasets\Maize.csv: got an unexpected keyword argument 'squared'
+Traceback (most recent call last):
+  File "c:\Users\adity\OneDrive\Desktop\ML\model.py", line 459, in train_all
+    res = train_model_for_plant(df, plant=plant_name, out_dir=out_dir, use_lightgbm=USE_LIGHTGBM, tune=tune, test_size=TEST_SIZE)
+  File "c:\Users\adity\OneDrive\Desktop\ML\model.py", line 372, in train_model_for_plant
+    rmse = mean_squared_error(y_test, preds, squared=False)
+  File "D:\Anaconda\Lib\site-packages\sklearn\utils\_param_validation.py", line 194, in wrapper
+    params = func_sig.bind(*args, **kwargs)
+  File "D:\Anaconda\Lib\inspect.py", line 3295, in bind
+    return self._bind(args, kwargs)
+           ~~~~~~~~~~^^^^^^^^^^^^^^
+  File "D:\Anaconda\Lib\inspect.py", line 3284, in _bind
+    raise TypeError(
+        'got an unexpected keyword argument {arg!r}'.format(
+            arg=next(iter(kwargs))))
+TypeError: got an unexpected keyword argument 'squared'
+2025-11-08 21:54:39,185 INFO: Processing file for training: c:\Users\adity\OneDrive\Desktop\ML\datasets\Potato.csv
+2025-11-08 21:54:39,192 INFO: Normalized column names for a file: {'Temperature_C': 'Temperature', 'Humidity_%': 'Humidity', 'Soil_Moisture_%': 'Soil_Moisture', 'Rainfall_mm': 'Rainfall', 'Dew_Point_C': 'Dew_Point'}
+2025-11-08 21:54:39,196 INFO: Training for plant 'potato' (250 rows)
+2025-11-08 21:54:39,520 ERROR: Failed to train model for datasets\Potato.csv: got an unexpected keyword argument 'squared'
+Traceback (most recent call last):
+  File "c:\Users\adity\OneDrive\Desktop\ML\model.py", line 459, in train_all
+    res = train_model_for_plant(df, plant=plant_name, out_dir=out_dir, use_lightgbm=USE_LIGHTGBM, tune=tune, test_size=TEST_SIZE)
+  File "c:\Users\adity\OneDrive\Desktop\ML\model.py", line 372, in train_model_for_plant
+    rmse = mean_squared_error(y_test, preds, squared=False)
+  File "D:\Anaconda\Lib\site-packages\sklearn\utils\_param_validation.py", line 194, in wrapper
+    params = func_sig.bind(*args, **kwargs)
+  File "D:\Anaconda\Lib\inspect.py", line 3295, in bind
+    return self._bind(args, kwargs)
+           ~~~~~~~~~~^^^^^^^^^^^^^^
+  File "D:\Anaconda\Lib\inspect.py", line 3284, in _bind
+    raise TypeError(
+        'got an unexpected keyword argument {arg!r}'.format(
+            arg=next(iter(kwargs))))
+TypeError: got an unexpected keyword argument 'squared'
+2025-11-08 21:54:39,527 INFO: Processing file for training: c:\Users\adity\OneDrive\Desktop\ML\datasets\Rice.csv
+2025-11-08 21:54:39,534 INFO: Normalized column names for a file: {'Temperature_C': 'Temperature', 'Humidity_%': 'Humidity', 'Soil_Moisture_%': 'Soil_Moisture', 'Rainfall_mm': 'Rainfall', 'Dew_Point_C': 'Dew_Point'}
+2025-11-08 21:54:39,547 INFO: Training for plant 'rice' (250 rows)
+2025-11-08 21:54:40,049 ERROR: Failed to train model for datasets\Rice.csv: got an unexpected keyword argument 'squared'
+Traceback (most recent call last):
+  File "c:\Users\adity\OneDrive\Desktop\ML\model.py", line 459, in train_all
+    res = train_model_for_plant(df, plant=plant_name, out_dir=out_dir, use_lightgbm=USE_LIGHTGBM, tune=tune, test_size=TEST_SIZE)
+  File "c:\Users\adity\OneDrive\Desktop\ML\model.py", line 372, in train_model_for_plant
+    rmse = mean_squared_error(y_test, preds, squared=False)
+  File "D:\Anaconda\Lib\site-packages\sklearn\utils\_param_validation.py", line 194, in wrapper
+    params = func_sig.bind(*args, **kwargs)
+  File "D:\Anaconda\Lib\inspect.py", line 3295, in bind
+    return self._bind(args, kwargs)
+           ~~~~~~~~~~^^^^^^^^^^^^^^
+  File "D:\Anaconda\Lib\inspect.py", line 3284, in _bind
+    raise TypeError(
+        'got an unexpected keyword argument {arg!r}'.format(
+            arg=next(iter(kwargs))))
+TypeError: got an unexpected keyword argument 'squared'
+2025-11-08 21:54:40,056 INFO: Processing file for training: c:\Users\adity\OneDrive\Desktop\ML\datasets\Soybean.csv
+2025-11-08 21:54:40,064 INFO: Normalized column names for a file: {'Temperature_C': 'Temperature', 'Humidity_%': 'Humidity', 'Soil_Moisture_%': 'Soil_Moisture', 'Rainfall_mm': 'Rainfall', 'Dew_Point_C': 'Dew_Point'}
+2025-11-08 21:54:40,069 INFO: Training for plant 'soybean' (250 rows)
+2025-11-08 21:54:40,526 ERROR: Failed to train model for datasets\Soybean.csv: got an unexpected keyword argument 'squared'
+Traceback (most recent call last):
+  File "c:\Users\adity\OneDrive\Desktop\ML\model.py", line 459, in train_all
+    res = train_model_for_plant(df, plant=plant_name, out_dir=out_dir, use_lightgbm=USE_LIGHTGBM, tune=tune, test_size=TEST_SIZE)
+  File "c:\Users\adity\OneDrive\Desktop\ML\model.py", line 372, in train_model_for_plant
+    rmse = mean_squared_error(y_test, preds, squared=False)
+  File "D:\Anaconda\Lib\site-packages\sklearn\utils\_param_validation.py", line 194, in wrapper
+    params = func_sig.bind(*args, **kwargs)
+  File "D:\Anaconda\Lib\inspect.py", line 3295, in bind
+    return self._bind(args, kwargs)
+           ~~~~~~~~~~^^^^^^^^^^^^^^
+  File "D:\Anaconda\Lib\inspect.py", line 3284, in _bind
+    raise TypeError(
+        'got an unexpected keyword argument {arg!r}'.format(
+            arg=next(iter(kwargs))))
+TypeError: got an unexpected keyword argument 'squared'
+2025-11-08 21:54:40,532 INFO: Processing file for training: c:\Users\adity\OneDrive\Desktop\ML\datasets\Sugarcane.csv
+2025-11-08 21:54:40,539 INFO: Normalized column names for a file: {'Temperature_C': 'Temperature', 'Humidity_%': 'Humidity', 'Soil_Moisture_%': 'Soil_Moisture', 'Rainfall_mm': 'Rainfall', 'Dew_Point_C': 'Dew_Point'}
+2025-11-08 21:54:40,544 INFO: Training for plant 'sugarcane' (250 rows)
+2025-11-08 21:54:40,743 ERROR: Failed to train model for datasets\Sugarcane.csv: got an unexpected keyword argument 'squared'
+Traceback (most recent call last):
+  File "c:\Users\adity\OneDrive\Desktop\ML\model.py", line 459, in train_all
+    res = train_model_for_plant(df, plant=plant_name, out_dir=out_dir, use_lightgbm=USE_LIGHTGBM, tune=tune, test_size=TEST_SIZE)
+  File "c:\Users\adity\OneDrive\Desktop\ML\model.py", line 372, in train_model_for_plant
+    rmse = mean_squared_error(y_test, preds, squared=False)
+  File "D:\Anaconda\Lib\site-packages\sklearn\utils\_param_validation.py", line 194, in wrapper
+    params = func_sig.bind(*args, **kwargs)
+  File "D:\Anaconda\Lib\inspect.py", line 3295, in bind
+    return self._bind(args, kwargs)
+           ~~~~~~~~~~^^^^^^^^^^^^^^
+  File "D:\Anaconda\Lib\inspect.py", line 3284, in _bind
+    raise TypeError(
+        'got an unexpected keyword argument {arg!r}'.format(
+            arg=next(iter(kwargs))))
+TypeError: got an unexpected keyword argument 'squared'
+2025-11-08 21:54:40,759 INFO: Processing file for training: c:\Users\adity\OneDrive\Desktop\ML\datasets\Tomato.csv
+2025-11-08 21:54:40,767 INFO: Normalized column names for a file: {'Temperature_C': 'Temperature', 'Humidity_%': 'Humidity', 'Soil_Moisture_%': 'Soil_Moisture', 'Rainfall_mm': 'Rainfall', 'Dew_Point_C': 'Dew_Point'}
+2025-11-08 21:54:40,774 INFO: Training for plant 'tomato' (250 rows)
+2025-11-08 21:54:41,047 ERROR: Failed to train model for datasets\Tomato.csv: got an unexpected keyword argument 'squared'
+Traceback (most recent call last):
+  File "c:\Users\adity\OneDrive\Desktop\ML\model.py", line 459, in train_all
+    res = train_model_for_plant(df, plant=plant_name, out_dir=out_dir, use_lightgbm=USE_LIGHTGBM, tune=tune, test_size=TEST_SIZE)
+  File "c:\Users\adity\OneDrive\Desktop\ML\model.py", line 372, in train_model_for_plant
+    rmse = mean_squared_error(y_test, preds, squared=False)
+  File "D:\Anaconda\Lib\site-packages\sklearn\utils\_param_validation.py", line 194, in wrapper
+    params = func_sig.bind(*args, **kwargs)
+  File "D:\Anaconda\Lib\inspect.py", line 3295, in bind
+    return self._bind(args, kwargs)
+           ~~~~~~~~~~^^^^^^^^^^^^^^
+  File "D:\Anaconda\Lib\inspect.py", line 3284, in _bind
+    raise TypeError(
+        'got an unexpected keyword argument {arg!r}'.format(
+            arg=next(iter(kwargs))))
+TypeError: got an unexpected keyword argument 'squared'
+2025-11-08 21:54:41,056 INFO: Processing file for training: c:\Users\adity\OneDrive\Desktop\ML\datasets\Wheat.csv
+2025-11-08 21:54:41,063 INFO: Normalized column names for a file: {'Temperature_C': 'Temperature', 'Humidity_%': 'Humidity', 'Soil_Moisture_%': 'Soil_Moisture', 'Rainfall_mm': 'Rainfall', 'Dew_Point_C': 'Dew_Point'}
+2025-11-08 21:54:41,068 INFO: Training for plant 'wheat' (250 rows)
+2025-11-08 21:54:41,272 ERROR: Failed to train model for datasets\Wheat.csv: got an unexpected keyword argument 'squared'
+Traceback (most recent call last):
+  File "c:\Users\adity\OneDrive\Desktop\ML\model.py", line 459, in train_all
+    res = train_model_for_plant(df, plant=plant_name, out_dir=out_dir, use_lightgbm=USE_LIGHTGBM, tune=tune, test_size=TEST_SIZE)
+  File "c:\Users\adity\OneDrive\Desktop\ML\model.py", line 372, in train_model_for_plant
+    rmse = mean_squared_error(y_test, preds, squared=False)
+  File "D:\Anaconda\Lib\site-packages\sklearn\utils\_param_validation.py", line 194, in wrapper
+    params = func_sig.bind(*args, **kwargs)
+  File "D:\Anaconda\Lib\inspect.py", line 3295, in bind
+    return self._bind(args, kwargs)
+           ~~~~~~~~~~^^^^^^^^^^^^^^
+  File "D:\Anaconda\Lib\inspect.py", line 3284, in _bind
+    raise TypeError(
+        'got an unexpected keyword argument {arg!r}'.format(
+            arg=next(iter(kwargs))))
+TypeError: got an unexpected keyword argument 'squared'
+2025-11-08 21:55:37,759 INFO: Discovered 8 CSV files.
+2025-11-08 21:55:37,761 INFO:   - Found: C:\Users\adity\OneDrive\Desktop\ML\datasets\Cotton.csv
+2025-11-08 21:55:37,762 INFO:   - Found: C:\Users\adity\OneDrive\Desktop\ML\datasets\Maize.csv
+2025-11-08 21:55:37,764 INFO:   - Found: C:\Users\adity\OneDrive\Desktop\ML\datasets\Potato.csv
+2025-11-08 21:55:37,764 INFO:   - Found: C:\Users\adity\OneDrive\Desktop\ML\datasets\Rice.csv
+2025-11-08 21:55:37,792 INFO:   - Found: C:\Users\adity\OneDrive\Desktop\ML\datasets\Soybean.csv
+2025-11-08 21:55:37,814 INFO:   - Found: C:\Users\adity\OneDrive\Desktop\ML\datasets\Sugarcane.csv
+2025-11-08 21:55:37,822 INFO:   - Found: C:\Users\adity\OneDrive\Desktop\ML\datasets\Tomato.csv
+2025-11-08 21:55:37,824 INFO:   - Found: C:\Users\adity\OneDrive\Desktop\ML\datasets\Wheat.csv
+2025-11-08 21:55:37,832 INFO: Processing file for training: C:\Users\adity\OneDrive\Desktop\ML\datasets\Cotton.csv
+2025-11-08 21:55:37,871 INFO: Normalized column names for a file: {'Temperature_C': 'Temperature', 'Humidity_%': 'Humidity', 'Soil_Moisture_%': 'Soil_Moisture', 'Rainfall_mm': 'Rainfall', 'Dew_Point_C': 'Dew_Point'}
+2025-11-08 21:55:37,981 INFO: Training for plant 'cotton' (250 rows)
+2025-11-08 21:55:39,592 INFO: Saved model -> models\cotton_model.joblib
+2025-11-08 21:55:39,707 INFO: Saved metrics -> models/metrics\cotton_metrics.json
+2025-11-08 21:55:39,838 INFO: Processing file for training: C:\Users\adity\OneDrive\Desktop\ML\datasets\Maize.csv
+2025-11-08 21:55:40,002 INFO: Normalized column names for a file: {'Temperature_C': 'Temperature', 'Humidity_%': 'Humidity', 'Soil_Moisture_%': 'Soil_Moisture', 'Rainfall_mm': 'Rainfall', 'Dew_Point_C': 'Dew_Point'}
+2025-11-08 21:55:40,316 INFO: Training for plant 'maize' (250 rows)
+2025-11-08 21:55:41,775 INFO: Saved model -> models\maize_model.joblib
+2025-11-08 21:55:41,777 INFO: Saved metrics -> models/metrics\maize_metrics.json
+2025-11-08 21:55:41,778 INFO: Processing file for training: C:\Users\adity\OneDrive\Desktop\ML\datasets\Potato.csv
+2025-11-08 21:55:41,788 INFO: Normalized column names for a file: {'Temperature_C': 'Temperature', 'Humidity_%': 'Humidity', 'Soil_Moisture_%': 'Soil_Moisture', 'Rainfall_mm': 'Rainfall', 'Dew_Point_C': 'Dew_Point'}
+2025-11-08 21:55:41,797 INFO: Training for plant 'potato' (250 rows)
+2025-11-08 21:55:42,625 INFO: Saved model -> models\potato_model.joblib
+2025-11-08 21:55:42,627 INFO: Saved metrics -> models/metrics\potato_metrics.json
+2025-11-08 21:55:42,629 INFO: Processing file for training: C:\Users\adity\OneDrive\Desktop\ML\datasets\Rice.csv
+2025-11-08 21:55:42,636 INFO: Normalized column names for a file: {'Temperature_C': 'Temperature', 'Humidity_%': 'Humidity', 'Soil_Moisture_%': 'Soil_Moisture', 'Rainfall_mm': 'Rainfall', 'Dew_Point_C': 'Dew_Point'}
+2025-11-08 21:55:42,641 INFO: Training for plant 'rice' (250 rows)
+2025-11-08 21:55:43,506 INFO: Saved model -> models\rice_model.joblib
+2025-11-08 21:55:43,603 INFO: Saved metrics -> models/metrics\rice_metrics.json
+2025-11-08 21:55:43,623 INFO: Processing file for training: C:\Users\adity\OneDrive\Desktop\ML\datasets\Soybean.csv
+2025-11-08 21:55:43,669 INFO: Normalized column names for a file: {'Temperature_C': 'Temperature', 'Humidity_%': 'Humidity', 'Soil_Moisture_%': 'Soil_Moisture', 'Rainfall_mm': 'Rainfall', 'Dew_Point_C': 'Dew_Point'}
+2025-11-08 21:55:43,721 INFO: Training for plant 'soybean' (250 rows)
+2025-11-08 21:55:44,629 INFO: Saved model -> models\soybean_model.joblib
+2025-11-08 21:55:44,632 INFO: Saved metrics -> models/metrics\soybean_metrics.json
+2025-11-08 21:55:44,633 INFO: Processing file for training: C:\Users\adity\OneDrive\Desktop\ML\datasets\Sugarcane.csv
+2025-11-08 21:55:44,642 INFO: Normalized column names for a file: {'Temperature_C': 'Temperature', 'Humidity_%': 'Humidity', 'Soil_Moisture_%': 'Soil_Moisture', 'Rainfall_mm': 'Rainfall', 'Dew_Point_C': 'Dew_Point'}
+2025-11-08 21:55:44,650 INFO: Training for plant 'sugarcane' (250 rows)
+2025-11-08 21:55:46,175 INFO: Saved model -> models\sugarcane_model.joblib
+2025-11-08 21:55:46,177 INFO: Saved metrics -> models/metrics\sugarcane_metrics.json
+2025-11-08 21:55:46,178 INFO: Processing file for training: C:\Users\adity\OneDrive\Desktop\ML\datasets\Tomato.csv
+2025-11-08 21:55:46,190 INFO: Normalized column names for a file: {'Temperature_C': 'Temperature', 'Humidity_%': 'Humidity', 'Soil_Moisture_%': 'Soil_Moisture', 'Rainfall_mm': 'Rainfall', 'Dew_Point_C': 'Dew_Point'}
+2025-11-08 21:55:46,204 INFO: Training for plant 'tomato' (250 rows)
+2025-11-08 21:55:47,276 INFO: Saved model -> models\tomato_model.joblib
+2025-11-08 21:55:47,278 INFO: Saved metrics -> models/metrics\tomato_metrics.json
+2025-11-08 21:55:47,279 INFO: Processing file for training: C:\Users\adity\OneDrive\Desktop\ML\datasets\Wheat.csv
+2025-11-08 21:55:47,289 INFO: Normalized column names for a file: {'Temperature_C': 'Temperature', 'Humidity_%': 'Humidity', 'Soil_Moisture_%': 'Soil_Moisture', 'Rainfall_mm': 'Rainfall', 'Dew_Point_C': 'Dew_Point'}
+2025-11-08 21:55:47,305 INFO: Training for plant 'wheat' (250 rows)
+2025-11-08 21:55:47,820 INFO: Saved model -> models\wheat_model.joblib
+2025-11-08 21:55:47,822 INFO: Saved metrics -> models/metrics\wheat_metrics.json
+2025-11-08 22:09:03,940 INFO: Discovered 8 CSV files.
+2025-11-08 22:09:03,941 INFO:   - Found: C:\Users\adity\OneDrive\Desktop\ML\datasets\Cotton.csv
+2025-11-08 22:09:03,942 INFO:   - Found: C:\Users\adity\OneDrive\Desktop\ML\datasets\Maize.csv
+2025-11-08 22:09:03,942 INFO:   - Found: C:\Users\adity\OneDrive\Desktop\ML\datasets\Potato.csv
+2025-11-08 22:09:03,943 INFO:   - Found: C:\Users\adity\OneDrive\Desktop\ML\datasets\Rice.csv
+2025-11-08 22:09:03,943 INFO:   - Found: C:\Users\adity\OneDrive\Desktop\ML\datasets\Soybean.csv
+2025-11-08 22:09:03,944 INFO:   - Found: C:\Users\adity\OneDrive\Desktop\ML\datasets\Sugarcane.csv
+2025-11-08 22:09:03,945 INFO:   - Found: C:\Users\adity\OneDrive\Desktop\ML\datasets\Tomato.csv
+2025-11-08 22:09:03,945 INFO:   - Found: C:\Users\adity\OneDrive\Desktop\ML\datasets\Wheat.csv
+2025-11-08 22:09:03,946 INFO: Processing file for training: C:\Users\adity\OneDrive\Desktop\ML\datasets\Cotton.csv
+2025-11-08 22:09:03,956 INFO: Normalized column names for a file: {'Temperature_C': 'Temperature', 'Humidity_%': 'Humidity', 'Soil_Moisture_%': 'Soil_Moisture', 'Rainfall_mm': 'Rainfall', 'Dew_Point_C': 'Dew_Point'}
+2025-11-08 22:09:03,986 INFO: Training for plant 'cotton' (250 rows)
+2025-11-08 22:09:04,336 INFO: Saved model -> models\cotton_model.joblib
+2025-11-08 22:09:04,376 INFO: Saved metrics -> models/metrics\cotton_metrics.json
+2025-11-08 22:09:04,413 INFO: Processing file for training: C:\Users\adity\OneDrive\Desktop\ML\datasets\Maize.csv
+2025-11-08 22:09:04,450 INFO: Normalized column names for a file: {'Temperature_C': 'Temperature', 'Humidity_%': 'Humidity', 'Soil_Moisture_%': 'Soil_Moisture', 'Rainfall_mm': 'Rainfall', 'Dew_Point_C': 'Dew_Point'}
+2025-11-08 22:09:04,455 INFO: Training for plant 'maize' (250 rows)
+2025-11-08 22:09:04,730 INFO: Saved model -> models\maize_model.joblib
+2025-11-08 22:09:04,733 INFO: Saved metrics -> models/metrics\maize_metrics.json
+2025-11-08 22:09:04,734 INFO: Processing file for training: C:\Users\adity\OneDrive\Desktop\ML\datasets\Potato.csv
+2025-11-08 22:09:04,739 INFO: Normalized column names for a file: {'Temperature_C': 'Temperature', 'Humidity_%': 'Humidity', 'Soil_Moisture_%': 'Soil_Moisture', 'Rainfall_mm': 'Rainfall', 'Dew_Point_C': 'Dew_Point'}
+2025-11-08 22:09:04,746 INFO: Training for plant 'potato' (250 rows)
+2025-11-08 22:09:05,107 INFO: Saved model -> models\potato_model.joblib
+2025-11-08 22:09:05,108 INFO: Saved metrics -> models/metrics\potato_metrics.json
+2025-11-08 22:09:05,109 INFO: Processing file for training: C:\Users\adity\OneDrive\Desktop\ML\datasets\Rice.csv
+2025-11-08 22:09:05,117 INFO: Normalized column names for a file: {'Temperature_C': 'Temperature', 'Humidity_%': 'Humidity', 'Soil_Moisture_%': 'Soil_Moisture', 'Rainfall_mm': 'Rainfall', 'Dew_Point_C': 'Dew_Point'}
+2025-11-08 22:09:05,123 INFO: Training for plant 'rice' (250 rows)
+2025-11-08 22:09:05,385 INFO: Saved model -> models\rice_model.joblib
+2025-11-08 22:09:05,386 INFO: Saved metrics -> models/metrics\rice_metrics.json
+2025-11-08 22:09:05,387 INFO: Processing file for training: C:\Users\adity\OneDrive\Desktop\ML\datasets\Soybean.csv
+2025-11-08 22:09:05,397 INFO: Normalized column names for a file: {'Temperature_C': 'Temperature', 'Humidity_%': 'Humidity', 'Soil_Moisture_%': 'Soil_Moisture', 'Rainfall_mm': 'Rainfall', 'Dew_Point_C': 'Dew_Point'}
+2025-11-08 22:09:05,401 INFO: Training for plant 'soybean' (250 rows)
+2025-11-08 22:09:05,656 INFO: Saved model -> models\soybean_model.joblib
+2025-11-08 22:09:05,658 INFO: Saved metrics -> models/metrics\soybean_metrics.json
+2025-11-08 22:09:05,658 INFO: Processing file for training: C:\Users\adity\OneDrive\Desktop\ML\datasets\Sugarcane.csv
+2025-11-08 22:09:05,667 INFO: Normalized column names for a file: {'Temperature_C': 'Temperature', 'Humidity_%': 'Humidity', 'Soil_Moisture_%': 'Soil_Moisture', 'Rainfall_mm': 'Rainfall', 'Dew_Point_C': 'Dew_Point'}
+2025-11-08 22:09:05,671 INFO: Training for plant 'sugarcane' (250 rows)
+2025-11-08 22:09:05,956 INFO: Saved model -> models\sugarcane_model.joblib
+2025-11-08 22:09:05,958 INFO: Saved metrics -> models/metrics\sugarcane_metrics.json
+2025-11-08 22:09:05,959 INFO: Processing file for training: C:\Users\adity\OneDrive\Desktop\ML\datasets\Tomato.csv
+2025-11-08 22:09:05,970 INFO: Normalized column names for a file: {'Temperature_C': 'Temperature', 'Humidity_%': 'Humidity', 'Soil_Moisture_%': 'Soil_Moisture', 'Rainfall_mm': 'Rainfall', 'Dew_Point_C': 'Dew_Point'}
+2025-11-08 22:09:05,979 INFO: Training for plant 'tomato' (250 rows)
+2025-11-08 22:09:06,249 INFO: Saved model -> models\tomato_model.joblib
+2025-11-08 22:09:06,250 INFO: Saved metrics -> models/metrics\tomato_metrics.json
+2025-11-08 22:09:06,251 INFO: Processing file for training: C:\Users\adity\OneDrive\Desktop\ML\datasets\Wheat.csv
+2025-11-08 22:09:06,261 INFO: Normalized column names for a file: {'Temperature_C': 'Temperature', 'Humidity_%': 'Humidity', 'Soil_Moisture_%': 'Soil_Moisture', 'Rainfall_mm': 'Rainfall', 'Dew_Point_C': 'Dew_Point'}
+2025-11-08 22:09:06,266 INFO: Training for plant 'wheat' (250 rows)
+2025-11-08 22:09:06,526 INFO: Saved model -> models\wheat_model.joblib
+2025-11-08 22:09:06,528 INFO: Saved metrics -> models/metrics\wheat_metrics.json
+2025-11-08 22:28:25,427 INFO: Discovered 8 CSV files.
+2025-11-08 22:28:25,428 INFO:   - Found: C:\Users\adity\OneDrive\Desktop\ML\datasets\Cotton.csv
+2025-11-08 22:28:25,429 INFO:   - Found: C:\Users\adity\OneDrive\Desktop\ML\datasets\Maize.csv
+2025-11-08 22:28:25,430 INFO:   - Found: C:\Users\adity\OneDrive\Desktop\ML\datasets\Potato.csv
+2025-11-08 22:28:25,430 INFO:   - Found: C:\Users\adity\OneDrive\Desktop\ML\datasets\Rice.csv
+2025-11-08 22:28:25,431 INFO:   - Found: C:\Users\adity\OneDrive\Desktop\ML\datasets\Soybean.csv
+2025-11-08 22:28:25,432 INFO:   - Found: C:\Users\adity\OneDrive\Desktop\ML\datasets\Sugarcane.csv
+2025-11-08 22:28:25,433 INFO:   - Found: C:\Users\adity\OneDrive\Desktop\ML\datasets\Tomato.csv
+2025-11-08 22:28:25,437 INFO:   - Found: C:\Users\adity\OneDrive\Desktop\ML\datasets\Wheat.csv
+2025-11-08 22:28:25,440 INFO: Processing file for training: C:\Users\adity\OneDrive\Desktop\ML\datasets\Cotton.csv
+2025-11-08 22:28:25,461 INFO: Normalized column names for a file: {'Temperature_C': 'Temperature', 'Humidity_%': 'Humidity', 'Soil_Moisture_%': 'Soil_Moisture', 'Rainfall_mm': 'Rainfall', 'Dew_Point_C': 'Dew_Point'}
+2025-11-08 22:28:25,480 INFO: Training for plant 'cotton' (250 rows)
+2025-11-08 22:28:25,902 INFO: Saved model -> models\cotton_model.joblib
+2025-11-08 22:28:25,903 INFO: Saved metrics -> models/metrics\cotton_metrics.json
+2025-11-08 22:28:25,904 INFO: Processing file for training: C:\Users\adity\OneDrive\Desktop\ML\datasets\Maize.csv
+2025-11-08 22:28:25,914 INFO: Normalized column names for a file: {'Temperature_C': 'Temperature', 'Humidity_%': 'Humidity', 'Soil_Moisture_%': 'Soil_Moisture', 'Rainfall_mm': 'Rainfall', 'Dew_Point_C': 'Dew_Point'}
+2025-11-08 22:28:25,918 INFO: Training for plant 'maize' (250 rows)
+2025-11-08 22:28:26,404 INFO: Saved model -> models\maize_model.joblib
+2025-11-08 22:28:26,405 INFO: Saved metrics -> models/metrics\maize_metrics.json
+2025-11-08 22:28:26,405 INFO: Processing file for training: C:\Users\adity\OneDrive\Desktop\ML\datasets\Potato.csv
+2025-11-08 22:28:26,418 INFO: Normalized column names for a file: {'Temperature_C': 'Temperature', 'Humidity_%': 'Humidity', 'Soil_Moisture_%': 'Soil_Moisture', 'Rainfall_mm': 'Rainfall', 'Dew_Point_C': 'Dew_Point'}
+2025-11-08 22:28:26,426 INFO: Training for plant 'potato' (250 rows)
+2025-11-08 22:28:27,433 INFO: Saved model -> models\potato_model.joblib
+2025-11-08 22:28:27,435 INFO: Saved metrics -> models/metrics\potato_metrics.json
+2025-11-08 22:28:27,436 INFO: Processing file for training: C:\Users\adity\OneDrive\Desktop\ML\datasets\Rice.csv
+2025-11-08 22:28:27,445 INFO: Normalized column names for a file: {'Temperature_C': 'Temperature', 'Humidity_%': 'Humidity', 'Soil_Moisture_%': 'Soil_Moisture', 'Rainfall_mm': 'Rainfall', 'Dew_Point_C': 'Dew_Point'}
+2025-11-08 22:28:27,455 INFO: Training for plant 'rice' (250 rows)
+2025-11-08 22:28:27,866 INFO: Saved model -> models\rice_model.joblib
+2025-11-08 22:28:27,867 INFO: Saved metrics -> models/metrics\rice_metrics.json
+2025-11-08 22:28:27,874 INFO: Processing file for training: C:\Users\adity\OneDrive\Desktop\ML\datasets\Soybean.csv
+2025-11-08 22:28:27,880 INFO: Normalized column names for a file: {'Temperature_C': 'Temperature', 'Humidity_%': 'Humidity', 'Soil_Moisture_%': 'Soil_Moisture', 'Rainfall_mm': 'Rainfall', 'Dew_Point_C': 'Dew_Point'}
+2025-11-08 22:28:27,890 INFO: Training for plant 'soybean' (250 rows)
+2025-11-08 22:28:28,317 INFO: Saved model -> models\soybean_model.joblib
+2025-11-08 22:28:28,319 INFO: Saved metrics -> models/metrics\soybean_metrics.json
+2025-11-08 22:28:28,322 INFO: Processing file for training: C:\Users\adity\OneDrive\Desktop\ML\datasets\Sugarcane.csv
+2025-11-08 22:28:28,331 INFO: Normalized column names for a file: {'Temperature_C': 'Temperature', 'Humidity_%': 'Humidity', 'Soil_Moisture_%': 'Soil_Moisture', 'Rainfall_mm': 'Rainfall', 'Dew_Point_C': 'Dew_Point'}
+2025-11-08 22:28:28,341 INFO: Training for plant 'sugarcane' (250 rows)
+2025-11-08 22:28:28,778 INFO: Saved model -> models\sugarcane_model.joblib
+2025-11-08 22:28:28,779 INFO: Saved metrics -> models/metrics\sugarcane_metrics.json
+2025-11-08 22:28:28,782 INFO: Processing file for training: C:\Users\adity\OneDrive\Desktop\ML\datasets\Tomato.csv
+2025-11-08 22:28:28,789 INFO: Normalized column names for a file: {'Temperature_C': 'Temperature', 'Humidity_%': 'Humidity', 'Soil_Moisture_%': 'Soil_Moisture', 'Rainfall_mm': 'Rainfall', 'Dew_Point_C': 'Dew_Point'}
+2025-11-08 22:28:28,800 INFO: Training for plant 'tomato' (250 rows)
+2025-11-08 22:28:29,257 INFO: Saved model -> models\tomato_model.joblib
+2025-11-08 22:28:29,258 INFO: Saved metrics -> models/metrics\tomato_metrics.json
+2025-11-08 22:28:29,259 INFO: Processing file for training: C:\Users\adity\OneDrive\Desktop\ML\datasets\Wheat.csv
+2025-11-08 22:28:29,267 INFO: Normalized column names for a file: {'Temperature_C': 'Temperature', 'Humidity_%': 'Humidity', 'Soil_Moisture_%': 'Soil_Moisture', 'Rainfall_mm': 'Rainfall', 'Dew_Point_C': 'Dew_Point'}
+2025-11-08 22:28:29,273 INFO: Training for plant 'wheat' (250 rows)
+2025-11-08 22:28:30,107 INFO: Saved model -> models\wheat_model.joblib
+2025-11-08 22:28:30,108 INFO: Saved metrics -> models/metrics\wheat_metrics.json

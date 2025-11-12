@@ -1,0 +1,16 @@
+{
+  "metrics": {
+    "mae": 8.759320787196877,
+    "rmse": 11.436752192218863,
+    "r2": 0.830579548884491,
+    "within_10_pct": 60.0,
+    "n_train": 200,
+    "n_test": 50
+  },
+  "pipeline_meta": {
+    "plant": "maize",
+    "trained_on": 200,
+    "timestamp": "2025-11-08T16:58:26.363935+00:00",
+    "params": {}
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "metrics": {
+    "mae": 8.83946993776488,
+    "rmse": 10.691301407015027,
+    "r2": 0.8743198928742042,
+    "within_10_pct": 62.0,
+    "n_train": 200,
+    "n_test": 50
+  },
+  "pipeline_meta": {
+    "plant": "wheat",
+    "trained_on": 200,
+    "timestamp": "2025-11-08T16:58:29.915290+00:00",
+    "params": {}
+  }
+}

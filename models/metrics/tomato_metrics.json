@@ -1,0 +1,16 @@
+{
+  "metrics": {
+    "mae": 10.575322969124475,
+    "rmse": 13.041664168570652,
+    "r2": 0.7507078319200178,
+    "within_10_pct": 60.0,
+    "n_train": 200,
+    "n_test": 50
+  },
+  "pipeline_meta": {
+    "plant": "tomato",
+    "trained_on": 200,
+    "timestamp": "2025-11-08T16:58:29.179988+00:00",
+    "params": {}
+  }
+}
